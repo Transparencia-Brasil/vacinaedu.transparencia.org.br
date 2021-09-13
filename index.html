@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Vacina Edu</title>
+        <link rel="icon" type="image/x-icon" href="favico.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg fixed-top">
+                <div class="col-md-2 col-12 text-center d-none d-md-block">
+                    <span class="fw-bold" >Um projeto</span><br />
+                    <a class="fw-bold" href="https://transparencia.org.br" target="_blank">   
+                        <img src="assets/img/TB-logo-Horizontal-branca.png" class="logo-tb">
+                    </a>    
+                </div>
+                <div class="col-md-8 col-12 text-center">
+                    <a class="navbar-brand" href="/index.html"><img src="assets/img/tdp_VacinaEdu-03.svg" class="mt-3 tnw"></a>
+                </div>
+                <div class="col-md-2 col-12 py-md-5 py-1 text-center">
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0 share-btn" data-toggle="modal" data-target="#share">
+                        <span class="d-flex align-items-center">
+                            <i class="bi bi-share-fill me-2"></i>
+                            <span class="small">Compartilhar</span>
+                        </span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+    <!-- Texto Intro -->
+            <div class="row blue intro">
+                <div class="col-12 text-center pb-5">
+                    <h1 class="my-3">Seu estado está pronto para a volta às aulas presenciais?</h1>
+                    <h6 class="mx-5">Confira como está a vacinação dos profissionais de educação, a infraestrutura das escolas e os dias letivos cumpridos no ensino público do seu estado.</h2>
+                </div>
+            </div>
+<!-- GRÁFICO DE VISÃO GERAL DE VACINAÇÃO -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 px-5">
+                                <h1 class="my-3 text-center pb-5">VACINAÇÃO</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="flourish-embed flourish-chart" data-src="visualisation/7149000"><script src="https://public.flourish.studio/resources/embed.js"></script></div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- GRÁFICO DE VISÃO GERAL DE ESTRUTURA ESCOLAR -->
+            <div class="row align-items-center py-5">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 px-5">
+                                <h1 class="my-3 text-center pb-5">ESTRUTURA ESCOLAR</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="flourish-embed flourish-map" data-src="visualisation/7136865"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="flourish-embed flourish-map" data-src="visualisation/7137008"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="flourish-embed flourish-map" data-src="visualisation/7137021"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="flourish-embed flourish-scatter" data-src="visualisation/7137042"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- METODOLOGIA -->
+            <div class="row align-items-center blue py-5">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="col-12 px-5">
+                            <h1 class="my-3 text-center">METODOLOGIA DE PESQUISA</h1>
+                        </div>
+                        <div class="col-12 my-5">
+                            <p>
+                                Para calcular o número de profissionais da educação básica, foram utilizados os microdados de vacinação do Ministério da Saúde. A coluna de grupo de atendimento indica o motivo da vacinação se ela não tiver ocorrido por idade. Filtrou-se aqueles que pertencem ao grupo “Ensino Básico”, contabilizando quantas pessoas em cada município recebeu uma dose da vacina por pertencer a essa categoria.
+                            </p>
+                            <p>
+                                Em seguida, verificou-se quantos desses indivíduos já receberam a segunda dose ou uma dose única. Com essa proporção, foi obtido o valor de funcionários já completamente imunizados.
+                            </p>
+                            <p>  
+                                Para os dados de infraestrutura escolar, utilizou-se o Censo Escolar de 2019. As proporções de escola com área verde, água potável e pátio descoberto foram calculadas entre todas as escolas de ensino regular (creche a ensino médio), tanto públicas quanto privadas, em cada estado.
+                            </p>
+                        </div>
+                        <div class="col-12 px-5 pt-5">
+                            <h1 class="mb-3 mt-5 text-center">QUALIDADE DE DADOS</h1>
+                        </div>
+                        <div class="col-12 my-5">
+                            <p>
+                                Um entrave para estimar o quantitativo de profissionais consiste na ausência de uma base de dados que reúna informações sobre os professores e auxiliares da educação no Brasil. Essa base seria relevante conforme o Plano Nacional de Imunização elaborado pelo Ministério da Saúde¹, estabelece como grupo prioritário "Profissionais da educação", englobando tanto professores quanto auxiliares da educação pública e privada.
+                            </p>
+                            <p>  
+                                Inicialmente, foram utilizadas informações da RAIS e do Censo Escolar para tentar obter uma estimativa desses profissionais em cada município. Entretanto, foi constatado que a RAIS subestima a quantidade de professores em diversos municípios. Com base nisso, é possível concluir que o número de profissionais auxiliares da educação também está subestimado.
+                            </p>
+                            <p>  
+                                A melhor alternativa para obter o número de profissionais da educação básica na rede pública, o Sistema de Informações sobre Orçamentos Públicos em Educação (SIOPE), não é confiável. Os dados não representam minimamente a realidade. De acordo com o SIOPE, quase 500 cidades de Minas Gerais têm apenas um profissional da educação pública, por exemplo. Além de instintivamente incorreto, esse dado é incompatível com o obtido a partir do Censo e da RAIS.
+                            </p>
+                            <p>  
+                                Por esse motivo, optou-se pela metodologia atual, utilizando o número de profissionais vacinados ao menos uma vez como estimativa de funcionários da educação em cada município. Cumpre notar, no entanto, que a ausência de dados estruturados impossibilita também à administração pública uma estimativa adequada, o que pode gerar complicações para o planejamento de políticas públicas e logística de casos como a vacinação prioritária.
+                            </p>
+                            <p class="legenda"> 
+                                ¹ Ministério da Saúde. PLANO NACIONAL DE OPERACIONALIZAÇÃO DA VACINAÇÃO CONTRA A COVID-19 - 5ª edição. Disponível em: <a href="https://www.gov.br/saude/pt-br/media/pdf/2021/marco/23/plano-nacional-de-vacinacao-covid-19-de-2021" target="_blank">https://www.gov.br/saude/pt-br/media/pdf/2021/marco/23/plano-nacional-de-vacinacao-covid-19-de-2021</a>. Acesso em: 18 ago. 2021.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Política de Privacidade -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Política de Privacidade - VacinaEdu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Esta Política de Privacidade dispõe sobre o processo de coleta, armazenamento, utilização, tratamento, compartilhamento e exclusão de dados pessoais eventualmente coletados pela Transparência Brasil em sua plataforma VacinaEdu.
+                        </p>
+                        <p>
+                            A Transparência Brasil busca respeitar integralmente a Lei Geral de Proteção de Dados Pessoais - LGPD (Lei Federal nº 13.709/2018) e declara o compromisso da entidade de preservar a privacidade e o sigilo dos dados pessoais. Nos preocupamos com a sua privacidade, honra e imagem, e utilizaremos todos os meios possíveis para protegê-las.
+                        </p>
+                        <p>
+                            De acordo com a LGPD e para fins desta política, considera-se dado pessoal toda e qualquer informação relacionada a pessoa natural identificada ou identificável, o que poderá incluir nome, e-mail, endereço, número do CPF, RG, dados de localização e endereço IP, sem prejuízo de outros dados que, em conjunto, permitam identificar uma pessoa de forma inequívoca.
+                        </p>
+                        <p>
+                            Os dados pessoais sensíveis são aqueles sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa.
+                        </p>
+                        <p> 
+                            Ao acessar este site, você declara estar ciente das normas desta política e ter feito a leitura completa e atenta das regras aqui contidas, conferindo, assim, seu livre e expresso consentimento com esta Política de Privacidade.
+                        </p>
+                        <p> 
+                            1. QUAIS DADOS A TRANSPARÊNCIA BRASIL PODE COLETAR?
+                        </p>
+                        <p>    
+                            a. Visita ao site VacinaEdu
+                        </p>
+                        <p> 
+                            Durante a visita ao site, podemos registrar dados essenciais para o funcionamento do nosso site e para as métricas de acesso, relativos a:
+                            <ul>
+                                <li>seu provedor de internet;</li>
+                                <li>sistema operacional;</li>
+                                <li>navegador;</li>
+                                <li>configurações de vídeo; e</li>
+                                <li>páginas acessadas.</li>
+                            </ul>
+                        </p>
+                        <p> 
+                            Esses dados são coletados por meio de cookies. Você pode ajustar suas configurações de navegador para desabilitar os cookies ou deletá-los. 
+                        </p>
+                        <p> 
+                            Caso estejam habilitados, nós (e os terceiros mencionados adiante) emitiremos cookies quando você interagir com o nosso site. Não compartilhamos esses dados com terceiros além daqueles responsáveis pelos próprios cookies.
+                        </p>
+                        <p> 
+                            Dados pessoais não serão coletados automaticamente; informações dessa natureza serão registradas em nossos bancos de dados apenas quando enviadas voluntariamente pelo(a) usuário(a), para o e-mail contato@transparencia.org.br.
+                        </p>
+                        <p> 
+                            O VacinaEdu usa a ferramenta Google Analytics para analisar suas interações e como você usa o site. Para fazer isso, são coletados/compartilhados dados sobre como você usa o site e dados que o(a) identificam. O tratamento desses dados é regido pela <a href="https://policies.google.com/privacy" target="_blank">política de privacidade do Google</a>.
+                        </p>
+                        <p> 
+                            2. COMO UTILIZAMOS OS DADOS COLETADOS?
+                        </p>
+                        <p> 
+                            Os dados coletados serão utilizados apenas para as finalidades institucionais da Transparência Brasil: 
+                        </p>
+                        <p> 
+                            (i) comunicação com as pessoas interessadas;<br /> 
+                            (ii) divulgação de atividades da Transparência Brasil; e <br />
+                            (iii) identificação das características de acesso e navegação no site.
+                        </p>
+                        <p> 
+                            3. COM QUEM COMPARTILHAMOS SEUS DADOS?
+                        </p>
+                        <p> 
+                            A Transparência Brasil não venderá, compartilhará, cederá ou transmitirá seus dados pessoais a terceiros sem prévio consentimento.
+                        </p>
+                        <p> 
+                            Nós utilizamos serviços de terceiros para hospedar o site, por isso eventualmente seus dados poderão ser compartilhados com eles para manutenção e suporte desses serviços. 
+                        </p>
+                        <p> 
+                            No entanto, o compartilhamento desses dados não implica sua utilização para nenhuma finalidade além da descrita nesta política. Essa relação é regida pelas políticas de privacidade da <a href="https://policies.google.com/privacy" target="_blank">Google</a> e da <a href="https://privacy.microsoft.com/pt-br/privacystatement" target="_blank">Microsoft</a>.
+                        </p>
+                        <p> 
+                            4. POR QUANTO TEMPO GUARDAMOS ESSES DADOS?
+                        </p>
+                        <p> 
+                            A Transparência Brasil apenas guardará os seus dados pelo tempo necessário para o cumprimento das finalidades para as quais foram coletados. A fim de manter o histórico de solicitações recebidas, os dados pessoais fornecidos serão anonimizados no prazo máximo de 3 meses após a coleta dos dados.
+                        </p>
+                        <p> 
+                            5. COMO SOLICITAR ACESSO E EXCLUSÃO DE DADOS?
+                        </p>
+                        <p> 
+                            O usuário poderá solicitar uma cópia de suas informações pessoais a qualquer momento, bem como solicitar a correção ou remoção dessas informações. Caso o usuário deseje a exclusão imediata de seus dados, poderá, a qualquer momento, solicitá-la por mensagem enviada à nossa equipe por meio do e-mail: contato@transparencia.org.br
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!-- Share -->
+            <div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="shareLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="shareModalLabel">Compartilhar - VacinaEdu</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                            <button class="social-media-btn">
+                                <a href=" https://wa.me/?text=Conheça o Vacina Edu. http://vacina-edu.herokuapp.com" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </button>
+                            <button class="social-media-btn">
+                                <a href="https://twitter.com/intent/tweet?text=Conheça o Vacina Edu. http://vacina-edu.herokuapp.com" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </button>
+                            <button class="social-media-btn">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=http://vacina-edu.herokuapp.com" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </button>
+                            <button class="social-media-btn">
+                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=http://vacina-edu.herokuapp.com" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!-- Footer-->
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center margem-footer text-center">
+                <div class="col-md-2 pl-5 col-12 text-footer">
+                        Um projeto
+                    <br />
+                    <a href="https://transparencia.org.br" target="_blank">
+                        <img src="https://transparencia.org.br/img/logos/logo-tb.svg?cache=3" class="mt-3 logo-footer">
+                    </a>
+                </div>
+                <div class="col-md-2 col-12 px-0 py-5 text-footer">
+                        Financiado por
+                    <br />
+                    <a href="https://tinker.org/pt/" target="_blank">
+                        <img src="assets/img/logo-tinker-2019-white.png" class="mt-3 logo-footer-tinker">
+                    </a>
+                </div>
+                <div class="col-md-2 offset-md-6 col-12 mt-3 px-0">
+                    <a href="#" class="modal-privacy" data-toggle="modal" data-target="#exampleModal">
+                        Política de Privacidade
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/32d928ce67.js" crossorigin="anonymous"></script>
+    </body>
+    <script>
+        $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+</html>
